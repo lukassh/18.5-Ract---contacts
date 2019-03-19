@@ -1,0 +1,52 @@
+body {
+	background: tomato;
+}
+img {
+	display: inline-block;
+	max-width: 100px;
+	color: #fff;
+
+}
+.contactLabel {
+	color: tomato;
+}
+.contactEmail {
+	color: tomato;
+	cursor: pointer;
+	text-decoration: none;
+}
+.contactForm {
+	background: #fff;
+	max-width: 900px;
+	width: 100%;
+	border: 2px solid blue;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+input[type=text], input[type=email] {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+button {
+	height: 40px;
+	width: 150px;
+	background: tomato;
+	color: #fff;
+	cursor: pointer;
+	margin: auto;
+	border-radius: 5px;
+	border: none;
+}
+.contactItem {
+	background: #fff;
+	border-radius: 5px;
+	max-width: 500px;
+	margin: 10px;
+	padding: 10px;
+
+}
